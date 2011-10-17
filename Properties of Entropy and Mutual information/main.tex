@@ -1,0 +1,542 @@
+% Copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+
+
+\documentclass{beamer}
+
+%
+% DO NOT USE THIS FILE AS A TEMPLATE FOR YOUR OWN TALKS¡!!
+%
+% Use a file in the directory solutions instead.
+% They are much better suited.
+%
+
+
+% Setup appearance:
+
+\usetheme{Bergen}
+\usefonttheme{professionalfonts}
+\usecolortheme{default}
+
+\setbeamertemplate{navigation symbols}{}
+
+
+% Standard packages
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+% Setup TikZ
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+
+% Author, Title, etc.
+\usefoottemplate{
+\hfill
+Minqi~Pan,
+ Capital Normal University
+
+}
+\title
+{%
+Properties of Entropy and Mutual information
+}
+
+\author
+{
+ Minqi~Pan
+}
+
+\institute
+{
+Capital Normal University
+}
+
+\date{\today}
+
+
+% The main document
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\frame{
+\frametitle{A tiny Citation}
+My greatest concern was what to call it. I thought of calling it 'information,' but the word was overly used, so I decided to call it 'uncertainty.' When I discussed it with John von Neumann{\color{red}(?)}, he had a better idea. Von Neumann told me, 'You should call it entropy, for two reasons. In the first place your uncertainty function has been used in statistical mechanics under that name, so it already has a name. In the second place, and more important, no one really knows what entropy really is, so in a debate you will always have the advantage.' 
+\begin{flushright}
+---Claude Shannon\footnote{Seen on Scientific American 1971 , volume 225 , page 180}
+\end{flushright}
+
+}
+
+\frame{
+  \frametitle{What we're gonna cover}
+
+\tableofcontents
+}
+
+
+\section{Today}
+\subsection{Self-information and Mutual-information}
+\frame
+{
+  \frametitle{Do you still remember}
+  the Definition of Self-information.
+  
+  You have already learnt this in the previous class. {\color{red}(?)}
+    \begin{itemize}
+    \item<2->  A measure of the information content associated with the outcome of a random variable.
+    \item<3->  Serves as a measure of the information content associated with the outcome of a random variable.
+        \item<4->  expressed in a unit of information -- bits, nats, or hartleys -- depending on the base of the logarithm used in its calculation. 
+    \end{itemize}
+
+}
+
+\frame
+{
+  \frametitle{Did anyone answer this?}
+  Precisely, the Definition of Self-information is
+  
+    \begin{itemize}
+    \item<2-> \[    I(\omega_n) = \log \left(\frac{1}{P(\omega_n)} \right) = - \log(P(\omega_n)) \]
+    \end{itemize}
+
+}
+
+\frame
+{
+  \frametitle{Propose a better name}
+I prefer calling it {\huge surprisal}\footnote{seen in the 1961 book Thermostatics and Thermodynamics by Myron Tribus.}.    
+
+  
+    \begin{itemize}
+    \item<2-> 
+... as it represents the "surprise" of seeing the outcome (a highly improbable outcome is very surprising).
+
+    \end{itemize}
+}
+
+
+
+\frame{
+\frametitle{next thing}
+"Mutual-information"
+  
+    \begin{itemize}
+    \item<2-> 
+a quantity that measures the mutual dependence of the two random variables. 
+    \item<3-> 
+A big formula is gonna come. Behold!
+    \item<4->
+      \[    I(X;Y) = \int_Y \int_X p(x,y) \log{ \left( \frac{p(x,y)}{p_1(x)\,p_2(y)} \right) } \; dx \,dy, \]
+  where $p(x,y) $is now the joint probability density function o$f X$ and$ Y$, and $p1(x)$ and $p2(y)$ are the marginal probability density functions of $X$ and $Y $respectively.
+      \item<5-> 
+Yipes!
+    \end{itemize}
+}
+
+
+\frame{
+\frametitle{Mutual-information}
+Don't worry, we'll only consider discrete cases.
+
+    \begin{itemize}
+  
+    \item<2-> 
+\[        I(X;Y) = \sum_{y \in Y} \sum_{x \in X} p(x,y) \log{ \left( \frac{p(x,y)}{p_1(x)\,p_2(y)} \right) }, \,\! \] 
+  where $p(x,y)$ is the joint probability distribution function of $X $and $Y$, and $p1(x) $and $p2(y)$ are the marginal probability distribution functions of $X$ and $Y$ respectively.
+
+    \end{itemize}
+    
+}
+
+\frame{
+\frametitle{Intuitively}
+
+truly and utterly Intuitively speaking, 
+    \begin{itemize}
+  
+    \item<2-> 
+mutual information measures the information that X and Y share.
+    \item<3-> 
+it measures how much knowing one of these variables reduces uncertainty about the other.   
+
+    \end{itemize}
+}
+
+\frame{
+\frametitle{If...}
+
+if X and Y are independent.
+ \[   I(X;Y) = \sum_{y \in Y} \sum_{x \in X} p(x,y) \log{ \left( \frac{p(x,y)}{p_1(x)\,p_2(y)} \right) }, \,\! \]
+    \begin{itemize}
+    \item<2-> 
+\[  p(x,y) = p(x) p(y)\]
+  \item<3-> 
+\[      \log{ \left( \frac{p(x,y)}{p(x)\,p(y)} \right) } = \log 1 = 0. \,\! \]
+    \item<4-> 
+their mutual information is zero.
+
+    \end{itemize}
+}
+
+
+\frame{
+\frametitle{If...(other extreme)}
+
+if X and Y are identical 
+\[    I(X;Y) = \sum_{y \in Y} \sum_{x \in X} p(x,y) \log{ \left( \frac{p(x,y)}{p_1(x)\,p_2(y)} \right) }, \,\! \]
+    \begin{itemize}
+    \item<2-> 
+\[    I(X;Y) = \sum_{y \in Y}(p(y,y)=p_1(y)) \log{ \left( \frac{p(y,y)=p_1(y)}{p_1(y)\,p_1(y)} \right) }, \,\! \]
+\[    I(X;Y) = \sum_{y \in Y}p_1(y) \log{ \left( \frac{1}{p_1(y)} \right) } = H(X) = H(Y) \]
+    \item<3-> 
+then all information conveyed by X is shared with Y. Knowing X determines the value of Y and vice versa.
+    \item<4-> 
+Ah, do you still remember $H()$?
+
+    \end{itemize}
+}
+
+
+
+
+\subsection{Properties of Mutual information}
+
+\frame
+{
+  \frametitle{$H()$}
+  
+  You have learnt, presumably in previous classes, that ...
+  \begin{itemize}
+  \item<2-> let 'message' be a specific realization of the random variable.
+  \item<3-> Shannon's entropy quantifies the expected value of the information contained in a message 
+  \item<4-> Shannon's entropy is a measure of the uncertainty associated with a random variable
+  \item<5-> Shannon's entropy usually comes in units bits.
+  \end{itemize}
+}
+
+
+
+
+\frame
+{
+  \frametitle{Definitions}
+  
+Just another review...
+  \begin{itemize}
+    \item<2-> \[    H(X) = \operatorname{E}(I(X)). \]
+    E is the expected value, and I is the information content of X.
+  \item<3->   If p denotes the probability mass function of X then the entropy can explicitly be written as
+  \[    H(X) = \sum_{i=1}^n {p(x_i)\,I(x_i)} \]\[ =\sum_{i=1}^n {p(x_i) \log_b \frac{1}{p(x_i)}} =-\sum_{i=1}^n {p(x_i) \log_b p(x_i)}, \]
+    \end{itemize}
+
+}
+
+\frame
+{
+  \frametitle{$H()$}
+  
+I prefer calling it {\huge the expected surprisal}!!
+
+}
+
+\frame
+{
+  \frametitle{In a word}
+  
+the expected surprisal is to...
+  \begin{itemize}
+    \item<2-> measure disorder, measure unpredictability.
+  \item<3->   measure the average information content one is missing when one does not know the value of the random variable.
+  \item<4->  What's your understanding?
+    \item<5-> But it's only a number anyway. An artificial Mathematical Quantity.
+    \end{itemize}
+
+
+}
+
+\frame
+{
+  \frametitle{Connecting the Dots 1}
+
+\[I(X;X) = H(X)\]
+
+
+where I(X;X) is the mutual information of X with itself.
+
+  \begin{itemize}
+    \item<2-> Right?
+    \item<3-> We have just shown that!
+    
+    \end{itemize}
+
+}
+
+\frame
+{
+  \frametitle{Connecting the Dots 2}
+
+In fact, (Property 3)
+  \begin{itemize}
+    \item<2-> $I(X;Y)\le H(X)$
+    \item<3-> $I(X;Y)\le H(Y)$
+    \item<4-> $I(X;Y)=H(X) \Rightarrow$ implication is possible from one event to another (Channel Fully Operational!)
+    \item<5-> $I(X;Y)=0 \Rightarrow$ implication is impossible from one event to another (Channel Break!)
+    \end{itemize}
+
+}
+\frame
+{
+  \frametitle{Connecting the Dots 3}
+
+
+Other Trivial Properties
+  \begin{itemize}
+    \item<2-> $I(X;Y)\ne 0$
+    \item<3-> $I(X;Y)=I(Y;X)$
+    \end{itemize}
+
+}
+\frame
+{
+  \frametitle{Connecting the Dots 4}
+
+Nontrivial Property 4
+  \begin{itemize}
+    \item<2-> convex function
+    
+    You check the book, Page 32, for proofs
+    
+    I won't prove it here.
+    \end{itemize}
+
+}
+\subsection{Properties of Entropy}
+\frame
+{
+\frametitle{Now back to properties of Entropy}
+Recall
+  \[    H(X) = \sum_{i=1}^n {p(x_i)\,I(x_i)} \]\[ =\sum_{i=1}^n {p(x_i) \log_b \frac{1}{p(x_i)}} =-\sum_{i=1}^n {p(x_i) \log_b p(x_i)}, \]
+  
+First I'll talk about additivity,
+  \begin{itemize}
+    \item<2-> Why do they use logarithm to construct that formula?
+    \item<3-> The logarithm is used so as to provide the additivity characteristic for independent uncertainty.     
+ \end{itemize}
+
+}
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Examples about additivity,
+  \begin{itemize}
+  
+    \item<2->     When throwing a fair dice, the probability of 'four' is 1/6. When it is proclaimed that 'four' has been thrown, the amount of self-information is
+
+    I('four') = log2 (1/(1/6)) = log2 (6) = 2.585 bits. 
+
+    \item<3->       When, independently, two dice are thrown, the amount of information associated with {throw 1 = 'two' and throw 2 = 'four'} equals
+
+  I('throw 1 is two and throw 2 is four') = log2 (1/P(throw 1 = 'two' and throw 2 = 'four')) = log2 (1/(1/36)) = log2 (36) = 5.170 bits.
+  
+  
+    This outcome equals the sum of the individual amounts of self-information associated with {throw 1 = 'two'} and {throw 2 = 'four'}; namely 2.585 + 2.585 = 5.170 bits. 
+
+    \end{itemize}
+}    
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Prop 5. certainties
+  \begin{itemize}
+  
+    \item<2-> I'll explain by examples
+    \item<3->    A series of tosses of a two-headed coin will have zero entropy, 
+        \item<4->  
+    since the outcomes are entirely predictable.
+
+    \end{itemize}
+}    
+
+
+
+
+
+
+
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Basic Properties
+  \begin{itemize}
+  
+    \item<2-> Prop 1. Entropy is always non-negative.
+    \item<3-> Prop 2. Symmetry
+    
+The measure should be unchanged if the outcomes \[x_i\] are re-ordered.
+
+\[    H_n\left(p_1, p_2, \ldots \right) = H_n\left(p_2, p_1, \ldots \right)=... \]
+    \end{itemize}
+}    
+
+
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+The Quest of Maximum
+  \begin{itemize}
+  
+    \item<2-> The measure should be maximal if all the outcomes are equally likely 
+    \item<3-> (uncertainty is highest when all possible events are equiprobable).
+    \item<4->     
+\[    H_n(p_1,\ldots,p_n) \le H_n\left(\frac{1}{n}, \ldots, \frac{1}{n}\right). \]
+    \item<5->     
+For equiprobable events the entropy should increase with the number of outcomes.
+    \item<6->     
+\[    H_n\bigg(\underbrace{\frac{1}{n}, \ldots, \frac{1}{n}}_{n}\bigg) < H_{n+1}\bigg(\underbrace{\frac{1}{n+1}, \ldots, \frac{1}{n+1}}_{n+1}\bigg). \]
+    \end{itemize}
+}    
+
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Adding 0's
+  \begin{itemize}
+  
+    \item<2->     Adding or removing an event with probability zero does not contribute to the entropy:
+
+
+    \item<3-> \[    H_{n+1}(p_1,\ldots,p_n,0) = H_n(p_1,\ldots,p_n). \]
+    \end{itemize}
+}    
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Jensen inequality
+
+  \begin{itemize}
+  
+    \item<2->      It can be confirmed using the Jensen inequality that
+
+
+
+    \item<3-> \[        H(X) = \operatorname{E}\left[\log_b \left( \frac{1}{p(X)}\right) \right] \]
+    \[\leq \log_b \left[ \operatorname{E}\left( \frac{1}{p(X)} \right) \right] = \log_b(n).  \]
+    \end{itemize}
+}    
+
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Conditional Entropy is defined by
+
+  \begin{itemize}
+  
+    \item<2->        \[    H(X|Y)=\sum_{i,j}p(x_{i},y_{j})\log\frac{p(y_{j})}{p(x_{i},y_{j})} \]
+
+    \item<3-> where p(xi,yj) is the probability that$ X=x_i$ and $Y=y_j.$
+    \item<4-> This quantity should be understood as the amount of randomness in the random variable X given that you know the value of Y. For example, the entropy associated with a six-sided die is H(die), but if you were told that it had in fact landed on 1, 2, or 3, then its entropy would be equal to H(die: the die landed on 1, 2, or 3).
+    \end{itemize}
+}    
+
+
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Conditionally
+
+  \begin{itemize}
+  
+    \item<2->          If X and Y are two independent experiments, then knowing the value of Y doesn't influence our knowledge of the value of X (since the two don't influence each other by independence):
+
+
+    \item<3-> \[      H(X | Y) = H(X).  \]
+    \end{itemize}
+}    
+
+
+\frame
+{
+  \frametitle{Properties of Entropy}
+
+Conditionally inequality
+
+  \begin{itemize}
+  
+    \item<2->          Oh knowing more reduces the expected value of surprisal.
+
+    \item<3-> \[      H(X | Y) \le H(X).  \]
+    \end{itemize}
+}    
+
+
+\frame
+{
+  \frametitle{Example on Page 28}
+
+Calculations that wraps up.
+
+}    
+
+
+\frame
+{
+  \frametitle{That's all}
+
+Many thanks goes to Shannon for his brilliance.
+
+  \begin{itemize}
+  
+    \item<2->          
+The other thanks goes to you:)
+    \item<3->          
+Ciao!
+\end{itemize}
+
+
+
+}    
+
+
+\end{document}
+
+
+
+
+
+
+
+

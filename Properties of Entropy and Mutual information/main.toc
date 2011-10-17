@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Today}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Self-information and Mutual-information}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Properties of Mutual information}{30}{0}{1}
+\beamer@subsectionintoc {1}{3}{Properties of Entropy}{57}{0}{1}
