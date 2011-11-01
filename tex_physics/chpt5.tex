@@ -1,0 +1,257 @@
+\chapter{相对论简介}
+\section{相对论运动学}
+\subsection{四维空间；事件；间隔；间隔不变性}
+\textbf{四维时空：}时间和空间构成统一整体，成为四维时空。有时称为四维闵可夫斯基空间。\\
+\textbf{事件：}四维时空中一点，某时某地。\\
+\textbf{例如}\\
+$$
+\begin{array}{lll}
+ &\text{在系中}&\text{在系中}\\
+\text{事件}A&(t_{1},x_{1},y_{1},z_{1})&(t_{1}',x_{1}',y_{1}',z_{1}')\\
+\text{事件}B&(t_{2},x_{2},y_{2},z_{2})&(t_{2}',x_{2}',y_{2}',z_{2}')
+\end{array}
+$$
+两个事件~A.B 之间的间隔\\
+$$
+\begin{array}{lcc}
+\text{时间间隔}&\Delta t&\Delta t'\\
+\text{空间间隔}&\Delta l=\sqrt{\Delta x)^{2}+(\Delta y)^{2}+(\Delta z)^{2}}&\Delta l'=\sqrt{\Delta x')^{2}+(\Delta y')^{2}+(\Delta z')^{2}}
+\end{array}
+$$
+间隔$$(\Delta s)^{2}=c^{2}\Delta t^{2}-[(\Delta x)^{2}+(\Delta y)^{2}+(\Delta z)^{2}]$$
+间隔不变性：两个事件之间的间隔与不同惯性参照系中是相等的‘
+$$(\Delta s)^{2}=(\Delta s')^{2}$$
+即$$c^{2}\Delta t^{2}-[(\Delta x)^{2}+(\Delta y)^{2}+(\Delta z)^{2}]=c^{2}\Delta t'^{2}-[(\Delta x')^{2}+(\Delta y')^{2}+(\Delta z')^{2}]$$
+间隔不变性是真空中光速不变原理的数字体现。
+间隔的分类：
+$$
+\begin{array}{cc}
+(\Delta s)^{2}>0&\text{类时间隔}\\
+(\Delta s)^{2}=0&\text{类光间隔}\\
+(\Delta s)^{2}<0&\text{类空间隔}
+\end{array}
+$$
+\subsection{洛伦兹变换}
+洛伦兹变换是洛伦兹在1892 年为了解决电磁学理论的协变形问题而提出的变换关系。\\
+设惯性参照系$\sum'$ 相对惯性参照系$\sum$ 以速度v 沿$x(x)'$ 轴作匀速直线运动。\\
+引入四维时空的坐标\ \ $x^{\alpha},\ \ \alpha=0,1,2,3$\\
+$${x^{\alpha}}=(ct,x,y,z)$$
+一个事件A 在$\sum$ 系和$\sum'$ 系中的坐标分别为\{ $x^{\alpha}$ \}和\{ $x'^{\alpha}$ \}\\
+参照系变换时，时空坐标的变换用下列矩阵关系来描述\\
+其中\\
+\ \ \ $\beta \equiv \frac{v}{c},\ \ \ \gamma \equiv \frac{1}{\sqrt{1-\beta^{2}}}$
+写成分量表达式即为\\
+
+$$
+\begin{array}{lcl}
+ct'&=&r(ct-\beta x)\\
+x'&=&r(x-\beta ct)\\
+y'&=&y\\
+z'&=&z
+\end{array}
+$$
+上述~$\sum$ 系，$\sum'$ 系中坐标变换关系式称为洛伦兹变换。这个变换虽然是在爱因斯坦提出完整的狭义相对论理论之前提出的，但是它对狭义相对论的建立有这只管种烟的启发作用，而且成了狭义相对论理论的重要组成部分。\\
+\\
+洛伦兹包含了以下一些重要的内容：\\
+\begin{enumerate}
+\item 相比有伽利略变化所包含的绝对时间观念~$t'=t$，狭义相对论中不同的参照系中有不同的时间，与参照系之间的相对运动有关。
+\item 在洛伦兹变换下，两个事件~A.B 之间的间隔保持不变。\\
+$$
+\begin{array}{rcl}
+(\Delta s')^{2}&=&(\Delta s)^{2}\\
+c^{2}\Delta t'^{2}-[(\Delta x')^{2}+(\Delta y')^{2}+(\Delta z')^{2}]&=&c^{2}\Delta t^{2}-[(\Delta x)^{2}+(\Delta y)^{2}+(\Delta z)^{2}]
+\end{array}
+$$
+事实上
+$$
+\begin{array}{rcl}
+c^{2}(\Delta t')^{2}&=&r^{2}(c\Delta t-\beta (\Delta x))^{2}\\
+(\Delta x')^{2}&=&r^{2}(\Delta x-\beta c(\Delta t))^{2}\\
+(\Delta y')^{2}&=&(\Delta y)^{2}\\
+(\Delta z')^{2}&=&(\Delta z)^{2}\\
+c^{2}(\Delta t')^{2}-(\Delta x')^{2}&=&r^{2}(c\Delta t-\beta (\Delta x))^{2}-r^{2}(\Delta x-\beta c(\Delta t))^{2}\\
+&=&r^{2}(1-\beta^{2})c^{2}(\Delta t)^{2}-r^{2}(1-\beta^{2})(\Delta x)^{2}\\
+&=&c^{2}(\Delta t)^{2}-(\Delta x)^{2}
+\end{array}
+$$
+\item 在洛伦兹变换下，有下述速度变换关系是
+$$
+\begin{array}{rcccl}
+u'_{x}&=&\frac{dx'}{dt'}&=\frac{u_{x}-v}{1-\frac{v}{c^{2}}u_{x}}\\
+u'_{y}&=&\frac{dy'}{dt'}&=\frac{u_{y}}{1-\frac{v}{c^{2}}u_{x}}\sqrt{1-\frac{v^{2}}{c^{2}}}\\
+u'_{z}&=&\frac{dz'}{dt'}&=\frac{u_{z}}{1-\frac{v}{c^{2}}u_{x}}\sqrt{1-\frac{v^{2}}{c^{2}}}\\
+\end{array}
+$$
+即速度矢量（三维空间矢量）不在描述原来的速度公式法则。\\
+可以证明光速在洛伦兹变换下保持不变，而小于~c 的速度在洛伦兹变换下永远不会达到或超过~c（这一点也可用间隔得不变性来论证）。\\
+\item 在非相对论极限下（$\beta\ll 1， \gamma\approx 1$）\\
+洛伦兹变换退化为伽利略变换\\
+\end{enumerate}
+
+\subsection{洛伦兹变换下的标量、矢量、  }
+\subsubsection{狭义相对性原理及其数学体现}
+\textbf{狭义相对性原理：}一切物理规律在任何惯性系都应有相同的形式。\\
+\textbf{一切物理规律：}电磁学规律、力学规律、强行互作用规律、弱相互作用规律。（引力相互作用具有特殊性，引力效应与时空结构密切相关——广义相对论）\\
+\textbf{对于任何惯性系都应有相同形式：}惯性系之间的变换用洛伦兹变换描述，用以表示物理规律的方程在洛伦兹变换下应保持其形式不变，常把方程的这一性质称之为具有协变性。\\
+\subsubsection{洛伦兹变换下的标量、矢量、张量  }
+\begin{enumerate}
+\item 普遍的洛伦兹变换：\\
+凡是使四维时空中两个事件之间的间隔\\
+$$(\Delta s)^{2}=c^{2}\Delta t^{2}-[(\Delta x)^{2}+(\Delta y)^{2}+(\Delta z)^{2}]$$
+保持形式不变的线性变换统称为普遍的洛伦兹变换。
+$$x'^{\alpha}=\sum_{\beta}\Lambda^{\alpha}_{\beta}x^{\beta}\equiv\Lambda^{\alpha}_{\beta}x^{\beta}$$
+前面所描述的一个惯性系~$\Sigma'$ 相对另一惯性系~$\Sigma$ 沿~$x(x')$ 轴做匀速直线运动时，两个参照系时空坐标的变换只是普遍的洛伦兹变换的一种特殊性，常称之为特殊的洛伦兹变换。普通的洛伦兹变换还包括：空间转动、空间反演、时间反演、空间时间全反演等。洛伦兹变换具有群的结构。\\
+\item 四维闵可夫斯基空间中的标量、矢量、张量。\\
+狭义相对论下的四维时空是一个与欧式空间具有不同度量特征的空间。其度量张量常表示为\\
+
+
+
+两个事件之间的间隔用上述度规张量（常称为闵可夫斯基度规）来表示可写为
+$$ds^{2}=\sum_{\alpha.\beta}\eta_{\alpha}dx^{\alpha}dx^{\beta}$$
+或者按照爱因斯坦约定在表达式中若两指表重复则意味着对该指标求和，可写为
+$$ds^{2}=\eta_{\alpha\beta}dx^{\alpha}dx^{\beta}$$
+所以狭义相对论的四维时空又称为四维闵可科夫斯基空间。\\
+四维闵可夫斯基空间中的各种物理量。各种微分算子可以按其在洛伦兹变换下的变换性质将其分类。标量、矢量、张量、等。我们称这些在洛伦兹变换下的协变形式的量成为协变量。\\
+\begin{enumerate}
+\item 标量$\Phi$
+一个量只有一个分量。在洛伦兹变换下保持不变，称为标量\\
+例如：\\
+两个事件之间的间隔$ds^{2}$
+$$
+\begin{array}{rcl}
+ds^{2}&=&\eta_{\alpha\beta}dx^{\alpha}dx^{\beta}\\
+&=&c^{2} dt^{2}-[(dx)^{2}+(dy)^{2}+(dz)^{2}]
+\end{array}
+$$
+又如：运动粒子的固有时$\tau$ ，在相对粒子局域静止测定的时间间隔。\\
+$$
+\begin{array}{rcccl}
+d\tau & \equiv & \frac{1}{c}ds & = & \frac{1}{c}(cdt\sqrt{1-\frac{u^{2}}{c^{2}}})\\
+ & = &\frac{dt}{r_{u}} & &
+\end{array}
+$$
+u为粒子的瞬时速度$r_{u}=\frac{1}{\sqrt{1-\frac{u^{2}}{c^{2}}}}$
+\item 矢量$\{\bigvee^{\alpha}\}$\\
+一个量由4个分量组成$\bigvee^{\alpha} \ \ (\alpha=0,1,2,3)$在洛伦兹变换下如同时空坐标变换一样变换。
+$$V'^{\alpha}=\Lambda^{\alpha}_{\beta}V^{\beta}\ \ \ (\alpha=\beta=0,1,2,3)$$
+如：四位移$dx^{\alpha}$\\
+又如：四速度矢量$u^{\alpha}$
+$$\{U^{\alpha}\}\equiv\{\frac{dx^{\alpha}}{d\tau}\}=r_{u}(c,u_{1},u_{2},u_{3})=r_{u}(c,\overrightarrow{u})$$
+又如：四维动量$p^{\alpha}$
+$$p^{\alpha}=m_{0}U^{\alpha}$$
+$m_{0}$为粒子的静止质量，是四维闵可夫斯基空间中的标量。\\
+上式也可写为$$\{p^{\alpha}\}=(p^{0}, \overrightarrow{p})$$
+若引入$m\equiv r_{u}\equiv m_{0}$ 粒子的惯性质量
+$$p^{0}=mc\ \ \ \ \ \ \ \ \ \overrightarrow{p}=m\overrightarrow{u}$$
+$p^{0}$与粒子的能量E有如下关系$p^{0}=\frac{E}{C}$\\
+故有 $E=p^{0}c=mc^{2}$
+\item 二阶张量$T^{\alpha\beta}$\\
+一个量$\{T^{\alpha\beta}\}$具有$4\times4=16$个分量，在洛伦兹变换下按如下方式变换。
+$$T'^{\alpha\delta}=\Lambda^{\lambda}_{\alpha}\Lambda^{\delta}_{\beta}T^{\alpha\beta}$$
+称为二阶张量。\\
+以后在电磁学理论中可以看到电场强度$\overrightarrow{E}$和磁感应强度$\overrightarrow{B}$一起构成电磁场场张量$F^{\alpha\beta}$它是二阶(反对称张量)\\
+\item 微分算子\\
+标量微分算子$\frac{d}{d\tau}$\\
+矢量微分算子$\{\frac{\partial}{\partial x^{\alpha}}\}=\{\frac{1}{c}\frac{\partial}{\partial t},\frac{\partial}{\partial x},\frac{\partial}{\partial y},\frac{\partial}{\partial z}\}$\\
+波算子$\Box^{2}=-\frac{1}{c^{2}}\frac{\partial^{2}}{\partial t^{2}}+\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+\frac{\partial^{2}}{\partial z^{2}}$\\
+也是标量算子。
+\end{enumerate}
+\end{enumerate}
+\section{相对论动力学}
+牛顿力学是非相对论力学，其运动方程为三维形式，要将其改造为相对论力学，必须将其四维协变形式，从而满足相对性原理的要求。在经典力学中我们有牛顿运动方程$\frac{\overrightarrow{p}}{dt}=\overrightarrow{F}$,也有能量随时间变化的规律$\frac{dE}{dt}=\overrightarrow{F}\cdot\overrightarrow{v}$,在一定条件下，我们有动量守恒定律，也有能量守恒定律。我们将把这些规律进行综合改造。找出满足相对论要求的协变形式。
+\subsection{四维动量$p^{\alpha}$(能量-动量四维矢量)\\四维动量守恒（能量-动量守恒）}
+由前，在狭义相对论中引入四维动量
+$$p^{\alpha}=m_{0}U^{\alpha}$$
+$m_{0}$：静止质量。闵可夫斯基空间中的标量。
+$$U^{\alpha}=(\gamma_{u}c,\gamma_{u}\overrightarrow{u})\ \ \ \ \ r_{u}=\frac{1}{\sqrt{1-\frac{u^{2}}{c^{2}}}}$$
+其空间分量$\overrightarrow{p}=m_{0}\gamma_{u}\overrightarrow{u}=\frac{m_{0}\overrightarrow{u}}{\sqrt{1-\frac{u^{2}}{c^{2}}}}\equiv m\overrightarrow{u}$\\
+$m\equiv\gamma_{u}m_{0}=\frac{m_{0}}{\sqrt{1-\frac{u^{2}}{c^{2}}}}$\ \ \ \ m:动质量，惯性质量。
+$$m\rightarrow\infty(u\rightarrow c)$$
+m随粒子运动状态变化而变化，当u增大时，粒子的惯性增大。$u\rightarrow c$时，惯性无穷大。\\
+早在1901年考夫曼在实验中发现，高速粒子的荷质比$\frac{e}{m}$随速率的增大而减小。根据电荷守恒定律， 质量电子电荷不随电子运动速率变化，（源自的电中性量其佐证）于是他得出了质量m随速率增大而增大的结论。先带学的实验也证实动量$p=m\overrightarrow{v}$随着粒子的速度接近光速$(\frac{u}{c}\rightarrow1)$而迅速增大。\\
+时间分量
+$$
+\begin{array}{rcl}
+p^{0}&=&\gamma_{u}m_{0}c\\
+&=&\frac{1}{c}\frac{m_{0}c^{2}}{\sqrt{1-\frac{u^{2}}{c^{2}}}}\\
+&=&\frac{1}{c}(m_{0}c^{2}+\frac{1}{2}m_{0}u^{2}+\cdot\cdot\cdot)\\
+&\equiv&\frac{E}{C}
+\end{array}
+$$
+$E\equiv\gamma_{u}m_{0}c^{2}=mc^{2}$\ \ \ \ \ 质量关系式\\
+质能关系式是现代核能反应中或释放能量，或吸收能量，其依据也是质能关系式。
+$$E_{k}=\Delta E=(\Delta m)c^{2}$$
+若粒子的静止质量为零（$m_{0}=0$），如光子，某些中微子其四动量通常用$q^{\alpha}$表示\\
+$$q^{\alpha}=(q,\overrightarrow{q})\ \ \ \ \ E=qc$$
+可证：$$\eta_{\alpha\beta}q^{\alpha}q^{\beta}=0(=m_{0}c^{2})$$
+四动量守恒（能量-动量守恒）\\
+在粒子参与的各种碰撞的反应过程中，反应前后的四动量之和保持不变。
+$$\sum_{i}P_{i}^{\alpha}=\sum_{j} P_{j}'^{\alpha}$$
+
+例：带电$\pi$介子（不稳定介子）可 衰变  为$\mu$  子和中微子
+$$\pi^{+}\rightarrow\mu^{+}+\gamma_{\mu}$$
+上述衰变过程中所涉及的粒子的静止质量分别为
+$$
+m_{\pi}=139.57Mev/c^{2}$$$$m_{\mu}=105.66Mev/c^{2}$$$$m_{\nu}\approx0 $$(即使有亦很小)
+$$(1Mev=1.6\times10^{-13}J,\ \ 1Mev/c^{2}=1.78\times10^{-30}Kg)$$
+求衰变后的$\mu$子在$\pi$介子质心系中的能量、动量和速度。\\
+解：\ \ \ 在$\pi$介子质心系中，$\pi$介子的动量、能量为
+$$P=0,\ \ \ \ E=m_{\pi}e^{2}$$
+设$\overrightarrow{P}'_{(\mu)}$和$\overrightarrow{P}'_{(\nu)}$分别是$\mu$介子和中微子的动量，它们的能量分别是
+$$E'_{()\mu}=\sqrt{m^{2}_{\mu}c^{4}}=p'^{2}_{(\mu)}c^{2}\ \ \ E'_{(\nu)}=P'_{(\nu)}c$$
+有四动量守恒得\\
+动量守恒：$\overrightarrow{P'_{(\mu)}}+\overrightarrow{P'_{(\nu)}}=0$\\
+能量守恒：$\sqrt{P_{(\mu)}'^{2}\cdot c^{4}+P_{(\mu)}c'^{2}}+P'_{(\nu)}c=m_{\pi}c^{2}$
+由上面第一式得：$\mid \overrightarrow{P'_{(\mu)}}\mid=\mid \overrightarrow{P'_{(\nu)}}\mid=P'$
+代入第二式解得：$P'=\frac{m_{\pi}^{2}-m_{\mu}^{2}}{2m_{\pi}}c$
+$$E'_{(\mu)}=m_{\pi}c^{2}-P'c=\frac{m_{\pi}^{2}+m_{\mu}^{2}}{2m_{\pi}}c^{2}$$
+把粒子质量带入得：$$P'=29.79Mev/c\ \ \ \ E'_{(\mu)}=109.78Mev$$
+$\mu$子 $\gamma$ 子为$\gamma=\frac{1}{\sqrt{1-\frac{u^{2}}{c^{2}}}}=\frac{E'_{\mu}}{m_{\mu}c^{2}}=1.0390$
+由此求得$\mu$子的速度为$\mu=0.2714c$
+\subsection{相对论力学方程}
+如前所述，要是力学规律满足相对性原理要求必须使其具有四维协变形式。前面所述的四维动量及四动量守恒定率即是四维协变形式。同样相对论动力学的运动方程也必须是四维协变形式。\\
+牛顿运动方程$\frac{d\overrightarrow{P}}{dt}=\overrightarrow{F}$，是三维形式。不难猜测，相应的四维形式应该是$$\frac{dP^{\alpha}}{d\tau}=K^{\alpha}$$
+其中$P^{\alpha}$为四维动量$d\tau$是固有市它的微分    $K^{\alpha}$通畅称谓四维力。$K^{\alpha}=\{K^{0},\overrightarrow{K}\}$\\
+其空间分量：$\overrightarrow{K}=\frac{d\overrightarrow{p}}{d\tau}=\gamma\frac{d\overrightarrow{p}}{dt}=\gamma\overrightarrow{F}$
+时间分量\ ：$K^{0}=\frac{dp^{0}}{d\tau}=\gamma\frac{d}{dt}(\frac{E}{C})=\gamma\frac{\overrightarrow{F}\cdot\overrightarrow{u}}{C}$\\
+$u$为粒子的即时速度$\gamma=\frac{1}{\sqrt{1-\frac{u^{2}}{c^{2}}}}$\\
+注意
+\[m=\gamma m_{0}\]
+虽然
+\[\overrightarrow{p}=m\overrightarrow{u}\]
+但
+\[\frac{d\overrightarrow{p}}{dt}\neq m\frac{d\overrightarrow{u}}{dt}\]
+因此，虽然在相对论情形下
+\[\frac{d\overrightarrow{p}}{dt}=\overrightarrow{F} \text{依然存在}\]
+但
+\[m\frac{d\overrightarrow{u}}{dt}=\overrightarrow{F}\text{ 不再成立}\]
+\ \ 与高能粒子碰撞或反应情况不同，相对论力学方程一般难以严格求解，只在少数情况下可以求解严格的结论。\\
+例：讨论带电粒子在均匀恒定磁场中的运动。\\
+\ \ 在均匀恒定磁场$\overrightarrow{B}$中，带电粒子的运动方程为
+$$
+\begin{cases}
+\frac{d\overrightarrow{p}}{dt}=q\overrightarrow{u}\times\overrightarrow{B}\\
+\frac{d E}{dt}=(q\overrightarrow{u}\times\overrightarrow{B})\cdot \overrightarrow{u}=0
+\end{cases}
+$$
+
+由方程二式，可知粒子的能量E为常量。因而速度$\overrightarrow{u}$亦为常量，故方程第一式
+$$
+\frac{d}{dt}(\frac{m_{0}\overrightarrow{u}}{\sqrt{1-\frac{u^{2}}{c^{2}}}})=\frac{m_{0}}{\sqrt{1-\frac{u^{2}}{c^{2}}}}\frac{d\overrightarrow{u}}{dt}=q\overrightarrow{u}\times\overrightarrow{B}\\
+$$
+或$$\overrightarrow{u}=\frac{q}{\gamma m_{0}}\overrightarrow{u}\times\overrightarrow{B}$$
+把$\overrightarrow{u}$分解为与 $\overrightarrow{B}$平行的分量 $\overrightarrow{u}_{//}$和与 $\overrightarrow{B}$垂直的分量 $\overrightarrow{u_{\bot}}$\\
+由上式得
+$$
+\.{\overrightarrow{u}}_{//}=0\\
+\.{\overrightarrow{u_{\bot}}}=\frac{q}{\gamma m_{0}}\overrightarrow{u_{\bot}}\times\overrightarrow{B}
+$$
+由第一式得$u_{//}=$常量。因而  亦为常量，第二式相当于在向心力  作用下质量为  的粒子的非相对论运动方程。方程的解是周围运动，圆m半径a可由向心力等于作用力求出
+$$
+\frac{\gamma m_{0}u_{\bot}^{2}}{a}=qu_{\bot}B\\a=\frac{\gamma m_{0}u_{\bot}}{qB}=\frac{p_{\bot}}{qB}
+$$
+圆周运动的角频率为
+$$
+\omega=\frac{u_{bot}}{a}=\frac{qB}{\gamma m_{0}}
+$$
+在相对论情形$\gamma$随粒子能量增大，因而频率下降。

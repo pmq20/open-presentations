@@ -1,0 +1,137 @@
+\contentsline {chapter}{\tocchapter {\fangsong 第}{1}{\fangsong 绪论}}{1}
+\contentsline {section}{\tocsection {}{1}{\simsun 物理学与其他自然科学}}{1}
+\contentsline {section}{\tocsection {}{2}{\simsun 物理世界的层次}}{1}
+\contentsline {section}{\tocsection {}{3}{\simsun 物质的基本组成，基本相互作用。“标准模型”}}{2}
+\contentsline {subsection}{\tocsubsection {}{3.1}{粒子物质“标准模型"}}{3}
+\contentsline {subsection}{\tocsubsection {}{3.2}{四种基本相互作用 }}{3}
+\contentsline {section}{\tocsection {}{4}{\simsun 物理学及其单位制，量纲}}{4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{单位制 }}{4}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.1}{基本量和导出量；基本单位和导出单位}}{4}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.2}{单位制}}{4}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.3}{国际单位制（SI）基本量，基本单位 }}{4}
+\contentsline {subsection}{\tocsubsection {}{4.2}{量纲及量纲分析 }}{4}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.1}{量纲，量纲指数，量纲法则}}{4}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.2}{量纲分析}}{4}
+\contentsline {chapter}{\tocchapter {\fangsong 第}{2}{\fangsong 力学与相对论}}{7}
+\contentsline {section}{\tocsection {}{1}{\simsun 质点运动的描述}}{7}
+\contentsline {subsection}{\tocsubsection {}{1.1}{质点、参考系、坐标系}}{7}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.1}{质点}}{7}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.2}{参照系}}{8}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.3}{坐标系}}{8}
+\contentsline {subsection}{\tocsubsection {}{1.2}{质点运动的描述}}{8}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.1}{位置矢量$\mathaccentV {vec}17E{\gamma }$}}{8}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.2}{速度矢量$\mathaccentV {vec}17E{v}$}}{8}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.3}{加速度矢量$\mathaccentV {vec}17E{a}$}}{9}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.4}{角速度矢量$\mathaccentV {vec}17E{\omega }$}}{9}
+\contentsline {section}{\tocsection {}{2}{\simsun 参照系变换}}{10}
+\contentsline {subsection}{\tocsubsection {}{2.1}{$S'$系相对于$S$系作匀速直线运动}}{10}
+\contentsline {subsection}{\tocsubsection {}{2.2}{$S'$系相对于$S$系作任意方式平动}}{11}
+\contentsline {subsection}{\tocsubsection {}{2.3}{$S'$系相对于$S$系作匀角速度转动}}{11}
+\contentsline {subsection}{\tocsubsection {}{2.4}{$S'$系相对于$S$系作一般运动}}{12}
+\contentsline {chapter}{\tocchapter {\fangsong 第}{3}{\fangsong 质点动力学（一）}}{13}
+\contentsline {section}{\tocsection {}{1}{\simsun 牛顿第一定律、惯性参照系}}{13}
+\contentsline {subsection}{\tocsubsection {}{1.1}{牛顿第一定律}}{13}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.1}{关于“力”的概念}}{13}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.2}{关于“惯性”的概念}}{13}
+\contentsline {section}{\tocsection {}{2}{\simsun 惯性参照系}}{13}
+\contentsline {section}{\tocsection {}{3}{\simsun 牛顿第二定律（质量和力的量度）}}{13}
+\contentsline {section}{\tocsection {}{4}{\simsun 常见的力}}{14}
+\contentsline {subsection}{\tocsubsection {}{4.1}{万有引力}}{14}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.1}{重力}}{14}
+\contentsline {subsection}{\tocsubsection {}{4.2}{弹性力}}{14}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.1}{胡克定律}}{14}
+\contentsline {subsection}{\tocsubsection {}{4.3}{摩擦力}}{14}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.1}{摩擦定律}}{14}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.2}{粘滞定律}}{14}
+\contentsline {subsection}{\tocsubsection {}{4.4}{洛伦兹力}}{14}
+\contentsline {section}{\tocsection {}{5}{\simsun 牛顿定律的运用、运动微分方程的建立}}{14}
+\contentsline {subsection}{\tocsubsection {}{5.1}{质点动力学的基本问题}}{14}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.1.1}{求解步骤}}{14}
+\contentsline {subsection}{\tocsubsection {}{5.2}{例题分析}}{14}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.1}{一维谐振子}}{15}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.2}{受阻下落}}{15}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.3}{在太阳引力作用下讨论行星运动}}{16}
+\contentsline {subsection}{\tocsubsection {}{5.3}{初积分}}{17}
+\contentsline {section}{\tocsection {}{6}{\simsun 质点在非惯性系中的运动、惯性力}}{17}
+\contentsline {subsection}{\tocsubsection {}{6.1}{非惯性系}}{17}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.1.1}{$S'$相对$S$作任意方式平动}}{17}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.1.2}{$S'$相对$S$作匀角速度转动}}{18}
+\contentsline {subsection}{\tocsubsection {}{6.2}{应用惯性力分析物理现象}}{18}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.2.1}{在人造卫星或宇宙飞船绕地球运动时在舱内所看到的失重现象}}{18}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.2.2}{重力与纬度的关系}}{18}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.2.3}{在地球上观测的科里奥利力}}{19}
+\contentsline {chapter}{\tocchapter {\fangsong 第}{4}{\fangsong 质点动力学（二）}}{21}
+\contentsline {section}{\tocsection {}{1}{\simsun 动量、动量定理、动量守恒定律}}{21}
+\contentsline {subsection}{\tocsubsection {}{1.1}{动量、动量定理}}{21}
+\contentsline {subsection}{\tocsubsection {}{1.2}{动量守恒定律}}{22}
+\contentsline {subsection}{\tocsubsection {}{1.3}{动量定理、动量守恒定律应用于质点组}}{22}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.3.1}{内力和外力、主矢量}}{22}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.3.2}{质点组的总动量、质点组动量定理、总动量守恒}}{22}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.3.3}{总动量守恒定律}}{22}
+\contentsline {subsection}{\tocsubsection {}{1.4}{质心、质心运动定理、质心参照系}}{22}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.1}{质心}}{22}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.2}{质点参照系}}{23}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.4.3}{质心系处理两体问题}}{23}
+\contentsline {subsection}{\tocsubsection {}{1.5}{例题分析}}{23}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.5.1}{人船模型}}{23}
+\contentsline {subsection}{\tocsubsection {}{1.6}{变质量物体的运动方程}}{24}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.1}{体系的选择，主体，附体}}{24}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.2}{变质量物体的运动过程}}{24}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.3}{火箭的运动}}{24}
+\contentsline {section}{\tocsection {}{2}{\simsun 动能与势能}}{25}
+\contentsline {subsection}{\tocsubsection {}{2.1}{动能、动能定理}}{25}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.1.1}{质点的动能、动能定理}}{25}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.1.2}{功的计算}}{25}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.1.3}{质点组动能、质点组动能定理}}{26}
+\contentsline {subsection}{\tocsubsection {}{2.2}{质点组的势能}}{27}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.1}{保守力和非保守力}}{27}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.2}{质点组的势能（两质点保守体系）}}{27}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.3}{势能图，势能曲线}}{27}
+\contentsline {subsection}{\tocsubsection {}{2.3}{功能关系，机械能及其守恒定律}}{28}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.1}{质点组的机械能，功能关系}}{28}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.2}{机械能守恒}}{29}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.3}{$M\gg m$的两质点的孤立保守系的机械能守恒}}{29}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.4}{质点在保守力场中机械能及其守恒定律}}{30}
+\contentsline {subsection}{\tocsubsection {}{2.4}{质心系中的动能关系和机械能守恒定律}}{30}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.1}{质心动能，柯尼希定理（{\A Konig's theorem}）}}{30}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.2}{质心系中的动能关系和机械能守恒定律}}{30}
+\contentsline {subsection}{\tocsubsection {}{2.5}{碰撞}}{30}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.1}{碰撞类型}}{31}
+\contentsline {subsection}{\tocsubsection {}{2.6}{例题分析}}{31}
+\contentsline {section}{\tocsection {}{3}{\simsun 角动量、角动量定理、角动量守恒定律}}{31}
+\contentsline {subsection}{\tocsubsection {}{3.1}{角动量，角动量定理}}{31}
+\contentsline {subsection}{\tocsubsection {}{3.2}{质点组的角动量，质点组的角动量定理}}{31}
+\contentsline {subsection}{\tocsubsection {}{3.3}{实验室系和质心系角动量之间的关系}}{32}
+\contentsline {subsection}{\tocsubsection {}{3.4}{质点在有心力场中的运动}}{32}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1}{有心力、有心力场}}{32}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2}{有心力场中质点运动的一般特征——两个守恒量}}{32}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3}{有心力场中运动质点的轨道问题，轨道微分方程}}{33}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4}{附：开普勒三大定律}}{34}
+\contentsline {section}{\tocsection {}{4}{\simsun 运动定理及守恒定律小结}}{35}
+\contentsline {subsection}{\tocsubsection {}{4.1}{基本概念}}{35}
+\contentsline {subsection}{\tocsubsection {}{4.2}{基本规律}}{35}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.1}{质点动量定理}}{35}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.2}{角动量定理}}{35}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.3}{动能定理}}{35}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.4}{保守内力、体系势能}}{35}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.5}{质点组机械能守恒定律}}{36}
+\contentsline {chapter}{\tocchapter {\fangsong 第}{5}{\fangsong 振动和波}}{37}
+\contentsline {section}{\tocsection {}{1}{\simsun 简谐振动}}{37}
+\contentsline {section}{\tocsection {}{2}{\simsun 阻尼振动和受迫振动}}{37}
+\contentsline {section}{\tocsection {}{3}{\simsun 振动的合成与分解}}{37}
+\contentsline {section}{\tocsection {}{4}{\simsun 机械波的产生和传播}}{37}
+\contentsline {section}{\tocsection {}{5}{\simsun 平面简谐波}}{37}
+\contentsline {section}{\tocsection {}{6}{\simsun 弹性介质中的波动方程与波速}}{37}
+\contentsline {section}{\tocsection {}{7}{\simsun 波的能量和强度}}{37}
+\contentsline {section}{\tocsection {}{8}{\simsun 驻波}}{37}
+\contentsline {section}{\tocsection {}{9}{\simsun 多普勒效应}}{37}
+\contentsline {chapter}{\tocchapter {\fangsong 第}{6}{\fangsong 相对论简介}}{39}
+\contentsline {section}{\tocsection {}{1}{\simsun 相对论运动学}}{39}
+\contentsline {subsection}{\tocsubsection {}{1.1}{四维空间；事件；间隔；间隔不变性}}{39}
+\contentsline {subsection}{\tocsubsection {}{1.2}{洛伦兹变换}}{39}
+\contentsline {subsection}{\tocsubsection {}{1.3}{洛伦兹变换下的标量、矢量、 }}{40}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.3.1}{狭义相对性原理及其数学体现}}{40}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.3.2}{洛伦兹变换下的标量、矢量、张量 }}{40}
+\contentsline {section}{\tocsection {}{2}{\simsun 相对论动力学}}{42}
+\contentsline {subsection}{\tocsubsection {}{2.1}{四维动量$p^{\alpha }$(能量-动量四维矢量)\\四维动量守恒（能量-动量守恒）}}{42}
+\contentsline {subsection}{\tocsubsection {}{2.2}{相对论力学方程}}{44}

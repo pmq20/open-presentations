@@ -1,0 +1,37 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.7.2)  17 AUG 2010 17:28
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**chpt3.tex
+(./chpt3.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, assamese, bengali, gujarati, hindi, kannada
+, malayalam, marathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, i
+rish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, b
+okmal, nynorsk, polish, portuguese, romanian, russian, sanskrit, serbian, slova
+k, slovenian, spanish, swedish, turkish, turkmen, ukenglish, ukrainian, upperso
+rbian, welsh, loaded.
+./chpt3.tex:1: Undefined control sequence.
+l.1 \chapter
+            {质点动力学（二）}
+? 
+./chpt3.tex:1: Emergency stop.
+l.1 \chapter
+            {质点动力学（二）}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 493773
+ 118 string characters out of 3145347
+ 49042 words of memory out of 3000000
+ 3393 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 5i,0n,1p,46b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+./chpt3.tex:1:  ==> Fatal error occurred, no output PDF file produced!

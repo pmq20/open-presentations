@@ -1,0 +1,72 @@
+% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt]{physics}
+\usepackage{amscd}
+%\renewcommand{\baselinestretch}{1.15}
+\makeatletter
+\def\@tocline#1#2#3#4#5#6#7{\relax
+  \ifnum #1>\c@tocdepth % then omit
+  \else
+    \par \addpenalty\@secpenalty\addvspace{#2}%
+    \begingroup \hyphenpenalty\@M
+    \@ifempty{#4}{%
+      \@tempdima\csname r@tocindent\number#1\endcsname\relax
+    }{%
+      \@tempdima#4\relax
+    }%
+    \parindent\z@ \leftskip#3\relax \advance\leftskip\@tempdima\relax
+    \rightskip\@pnumwidth plus4em \parfillskip-\@pnumwidth
+    #5\leavevmode\hskip-\@tempdima #6\nobreak\relax
+    \ifnum#1<0\hfill\else\dotfill\fi\hbox to\@pnumwidth{\@tocpagenum{#7}}\par
+    \nobreak
+    \endgroup
+  \fi}
+\makeatother
+\usepackage[text={6.5in,9in},centering]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper}                   % ... or letterpaper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\newtheorem*{theorem}{\simhei 定理}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+% Will Robertson's fontspec.sty can be used to simplify font choices.
+% To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
+% and change "Hoefler Text" to any of these choices.
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont[Mapping=tex-text]{Hoefler Text}
+%\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+\newfontfamily{\A}{Times New Roman}
+\newfontfamily{\H}{Hei}
+\newfontfamily{\K}{Kai}
+\newfontfamily{\simsun}[Scale=0.9]{SimSun}
+\newfontfamily{\simhei}[Scale=0.9]{SimHei}
+\newfontfamily{\fangsong}{FangSong}
+\makeindex
+\begin{document}
+\frontmatter
+\title{\K 基础物理课程讲义}
+\author{\simhei \small （草稿）}
+%\date{}                                           % Activate to display a given date or no date
+\maketitle
+\tableofcontents
+\mainmatter
+\include{chpt0}
+\include{chpt1}
+\include{chpt2}
+\include{chpt3}
+\include{chpt4}
+\include{chpt5}
+
+\end{document}  
